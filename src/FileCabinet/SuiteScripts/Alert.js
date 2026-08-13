@@ -20,9 +20,9 @@ define(['N/runtime'],
          */
         function pageInit(scriptContext) {
                 var userName = runtime.getCurrentUser().name;
-                alert('Hello, ' + userName);
-                
-    
+                alert('Hello, ' + userName + '! Welcome to NetSuite. Have a great day!');
+                log.debug('vs code practice change');
+
         }
         return {
             pageInit: pageInit
