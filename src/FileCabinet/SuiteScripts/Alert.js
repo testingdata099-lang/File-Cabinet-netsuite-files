@@ -21,7 +21,7 @@ define(['N/runtime'],
         function pageInit(scriptContext) {
                 var userName = runtime.getCurrentUser().name;
                 alert('Hello, ' + userName);
-                log.debug('VS Code revert practice');
+                
     
         }
         return {
