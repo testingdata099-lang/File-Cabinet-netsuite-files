@@ -21,6 +21,7 @@ define(['N/runtime'],
         function pageInit(scriptContext) {
                 var userName = runtime.getCurrentUser().name;
                 alert('Hello, ' + userName);
+               log.debug('Change made directly on GitHub');
                 
     
         }
